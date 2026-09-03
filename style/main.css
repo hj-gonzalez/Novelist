@@ -1,0 +1,152 @@
+/* ===== Fonts ===== */
+@font-face {
+  font-family: "Aujournuit Densed";
+  src: url("fonts/Aujournuit-Densed.woff2") format("woff2");
+}
+
+/* ===== Base / shared ===== */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background: #f4ecd8;
+  color: #2b2317;
+}
+h1 {
+  font-family: "Aujournuit Densed", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+}
+footer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #6b5d3f;
+  text-align: center;
+}
+
+/* ===== Landing page ===== */
+header {
+  background-image: url("../images/nile.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 4rem;
+  align-items: center;
+  text-align: center;
+
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+}
+
+header h1,
+header p {
+  font-family: "Aujournuit Densed", sans-serif;
+  font-weight: 600;
+}
+
+/* ==== About page ==== */
+.about-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/aboutme.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+
+  padding: 2rem;
+}
+
+.about-hero .topnav {
+  padding-left: 0;
+}
+
+.about-hero h1 {
+  font-family: "Aujournuit Densed", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+/* ===== Fiction index ===== */
+.blurb {
+  font-size: 1.05rem;
+  margin-bottom: 3rem;
+}
+
+.story-entry {
+  margin-bottom: 2.5rem;
+}
+
+.story-entry h2 {
+  font-family: "Aujournuit Densed", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.teaser {
+  color: #6b5d3f;
+  margin-top: 0;
+}
+
+/* ===== Nav & link styling (shared + landing) ===== */
+.topnav a,
+.worlds a,
+.worlds .dimmed {
+  font-family: "Aujournuit Densed", sans-serif;
+  font-weight: 500;
+}
+
+.worlds {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 1.5rem;
+  font-size: 1.3rem;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 1.5rem;
+}
+
+.dimmed {
+  color: #b0a68f;
+}
+
+a {
+  color: #6b4a2f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Story pages ===== */
+.story-footer-nav {
+  margin-top: 3rem;
+  text-align: center;
+}
