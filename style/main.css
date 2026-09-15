@@ -158,3 +158,23 @@ a:hover {
   margin-top: 3rem;
   text-align: center;
 }
+
+/* ===== Story section breaks ===== */
+hr {
+  border: none;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
+hr::after {
+  content: "* * *";
+  color: #6b5d3f;
+  font-size: 1.2rem;
+  letter-spacing: 1.5rem;
+}
+
+/* ===== Blockquote ===== */
+blockquote {
+  margin: 1.5rem 2rem;
+  color: #4a4030;
+}
